@@ -1,0 +1,483 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
+} */
+body{
+    max-width: 1440px;
+    height: 100%;
+   justify-content: center;
+   flex-direction: column;
+ 
+   font-family: 'Bai Jamjuree';
+}
+.HH{
+    padding-bottom: 20px;
+    color:hsl(210, 10%, 33%) ;
+    font-weight: 600;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    padding: 30px 80px;
+    
+}
+header p {
+    font-family: 'Bai Jamjuree';
+}
+header img {
+    margin-top: 30px;
+    text-align: center;
+}
+ #one{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+header button {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.button1 {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    cursor: pointer;
+}
+.button1{
+    box-shadow: 5px 5px 20px hsl(171, 66%, 44%); 
+}
+.button2{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+}
+.button2{
+    box-shadow: 5px 5px 20px hsl(233, 100%, 69%); 
+}
+.para1 {
+    text-align: center;
+    margin: 100px;
+    font-size: 18px;
+}
+nav p{
+    font-family: 'Bai Jamjuree';
+}
+.two4{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 70px;
+}
+.comp{
+    margin-left: -30px;
+}
+.two4 div{
+    justify-content: center;
+    align-items: center;
+    padding: 40px ;
+}
+#three {
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+#three div{
+    padding: 40px;
+    font-size: 18px;
+}
+#for{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 40px 20px;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding-bottom: 80Px;
+}
+.text {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10%;
+    padding-bottom:60px ;
+}
+#one div{
+    padding: 20px;
+}
+#one button{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+footer{
+    background-color: rgba(237, 237, 237, 0.969);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18Px;
+    padding: 40px 40px;
+}
+.log{
+    margin-left: 70px;
+    width: 30%;
+}
+.six div {
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.six div a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%) ;
+    cursor: pointer;
+    font-family: 'Bai Jamjuree';
+}
+.six div a:hover{
+    opacity: 0.5;
+    color: hsl(171, 66%, 44%);
+}
+.Net a{
+    padding: 10px;
+    margin: 0px;
+}
+@media screen and (min-width:769px) and(max-width:1440px) {
+    body{
+        width: 1440px;
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/bg-header-desktop.png");
+        background-size: cover;
+        padding: 30px 80px;
+        
+    }
+    #one{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    }
+    header p {
+        font-family: 'Bai Jamjuree';
+    }
+    header img {
+        margin-top: 30px;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .two4{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        margin:auto ;
+    }
+    .comp{
+        margin-left: -30px;
+    }
+    #two{
+        padding: 50px;
+    }
+    #three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parag2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #for{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 40px 20px;
+        text-align: center;
+    }
+    #for div{
+        padding: 30px;
+    }
+    .text{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .text img{
+        padding: 30px ;
+    }
+    footer{
+        background-color: rgba(237, 237, 237, 0.969);
+    }
+    .six{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .six img{
+        width: 30%;
+        padding: 40px;
+     margin-left: 40%;
+    }
+    .six a{
+        text-decoration: none;
+        color: black;
+        font-family: 'bai  Jamjuree';
+    }
+    .six div a:hover{
+        opacity: 0.5;
+        color: hsl(171, 66%, 44%);
+    }
+    .Net a{
+        padding: 10px;
+    }
+} 
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 18px;
+    
+    }
+    .para1{
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+    .two4{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .two4 img{
+        width: 100%;
+    }
+    .two4  div {
+        margin-top: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+    } 
+    #three img{
+        width: 100%;
+    }
+    #for{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    #for div{
+        padding: 20px;
+        margin: 10px;
+    }
+    .text{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .comp{
+        margin-left:0px ;
+    }
+    .text img{
+        padding: 30px ;
+        margin-left: 33%;
+    }
+    #one {
+        padding: 0px;
+        width: 90%;
+    }
+    footer{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .log{
+        text-align: center;
+        margin-left: 45%;
+        width: 50px;
+    }
+    .six{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        text-align: center;
+    } 
+    .six div {
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+} 
+}
+@media screen and (max-width:375px) {
+    body{
+        width: 375px;
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header {
+        background-image: url("images/bg-header-mobile.png");
+        text-align: center;
+        padding: 30px 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    .para1{
+        padding: 0px 0px;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    .two4{
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 70px;
+        margin: auto;
+    }
+    .two4  div {
+        padding: 0px ;
+        padding-bottom: 30px;
+    } 
+    .two4 img {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 40px;
+        margin-left: -0px;
+    }
+    #three img {
+        width: 100%;
+    }
+    #for{
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0px;
+        margin: 0px 0px;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    #for div {
+        padding-bottom: 90px;
+        text-align: center;
+    }
+    .text {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+        text-align: center;
+       
+    }
+    .text img {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+        margin: 30px; ;
+    } 
+     #one{
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    #one button{
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+    }
+    .six div p{
+        font-family: 'Bai Jamjuree';
+        
+    }
+    .log{
+        text-align: center;
+        margin-left: 120px;
+        width: 50px;
+    }
+    .six{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        text-align: center;
+    } 
+    .six div {
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+} 
+.Net a{
+    padding: 10px;
+}
+}
